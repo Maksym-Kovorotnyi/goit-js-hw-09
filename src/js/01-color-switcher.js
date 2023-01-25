@@ -13,7 +13,7 @@ btnStart.addEventListener('click', onBtnStartClick)
 function onBtnStartClick(e) {
   btnStart.disabled = true;
   btnStop.disabled = false;
-intervalId = setInterval(bcgColor, 1000);
+  intervalId = setInterval(bcgColor, 1000);
 }
 
 btnStop.addEventListener('click', onBtnStopClick)
